@@ -4,6 +4,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
   headerPanel("Bank Failures & Assistance Transactions In the US From 1970 - 2014"),
   sidebarPanel(
+    h4('Select your parameters to view the graph and the data table'), 
     h5('Selection: '),
     dateInput("fromdate", "From Date:", min = "1970-01-01", max = "2015-01-01", value = "1970-01-01", format = "mm/dd/yyyy"),
     dateInput("todate", "To Date:", min = "1970-01-01", max = "2015-01-01", value = "2014-08-01", format = "mm/dd/yyyy"),
