@@ -4,13 +4,7 @@ library(ggplot2)
 shinyServer(
   function(input, output) {   
     filedata <- reactive({
-        myCsv <- getURL("https://gist.github.com/raw/667867/c47ec2d72801cfd84c6320e1fe37055ffe600c87/test.csv")
-        temporaryFile <- tempfile()
-        con <- file(temporaryFile, open = "w")
-        cat(myCsv, file = con) 
-        close(con)
-        
-        read.csv(temporaryFile)
+        read.csv("./data/hsobReport.csv")
     })
     
     output$state <- renderUI({
