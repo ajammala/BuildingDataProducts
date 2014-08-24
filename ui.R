@@ -2,7 +2,7 @@ library(shiny)
 
 
 shinyUI(pageWithSidebar(
-  headerPanel("Failures & Assistance Transactions In the US From 1970 - 2014"),
+  headerPanel("Bank Failures & Assistance Transactions In the US From 1970 - 2014"),
   sidebarPanel(
     h5('Selection: '),
     dateInput("fromdate", "From Date:", min = "1970-01-01", max = "2015-01-01", value = "1970-01-01", format = "mm/dd/yyyy"),
