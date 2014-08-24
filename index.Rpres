@@ -1,0 +1,36 @@
+Bank Failures & Assistance Transactions In the US From 1970 - 2014
+========================================================
+author: Adi J
+date: 08/23/2014
+
+About
+========================================================
+The Federal Deposit Insurance Corporation (FDIC) is a United States government corporation operating as an independent agency. 
+
+Since the start of FDIC insurance on January 1, 1934, no depositor has lost any insured funds as a result of a failure. 
+
+The FDIC has a **'Historical Statistics on Banking'** which tracks the Failures & Assistance Transactions carried out by the FDIC since its inception.
+
+This Analysis provides a **visual representation of bank failures and assistance transactions** carried out by the FDIC in the US since 1970.
+
+Shiny Application 1
+========================================================
+![alt text](./index-figure/main.png)
+
+Shiny Application 2
+========================================================
+![alt text](./index-figure/main-2.png)
+
+Shiny Application 3
+========================================================
+![alt text](./index-figure/main-3.png)
+
+Conclusion & Links
+========================================================
+Shiny & R Presentation make presenting and distributing data analyses fast and convenient.
+
+1. The Shiny project is hosted [here](http://ajammala.shinyapps.io/BuildingDataProducts/ "Shinyapps").
+
+2. The github repository can be found [here](https://github.com/ajammala/BuildingDataProducts "GithubLink")
+
+
